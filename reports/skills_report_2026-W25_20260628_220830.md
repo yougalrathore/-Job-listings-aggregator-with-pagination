@@ -1,0 +1,217 @@
+# JobScrape Pro - Weekly Skills Analysis Report
+
+**Generated:** 2026-06-28T22:08:30.918886
+**Period:** 2026-W25
+**Total Jobs Analyzed:** 158
+
+---
+
+## Executive Summary
+
+This report analyzes **158 job postings** and identifies **90 unique skills** across 10 technology categories. On average, each job posting mentions **2.25 skills** in its title or description.
+
+---
+
+## Top 10 Most In-Demand Skills
+
+| Rank | Skill | Mentions | % of Jobs | Category |
+|------|-------|----------|-----------|----------|
+| 1 | **Communication** | 48 | 30.4% | Soft Skills |
+| 2 | **Collaboration** | 22 | 13.9% | Soft Skills |
+| 3 | **Compliance** | 22 | 13.9% | Security |
+| 4 | **Leadership** | 22 | 13.9% | Soft Skills |
+| 5 | **Golang** | 19 | 12.0% | Programming Languages |
+| 6 | **Python** | 14 | 8.9% | Programming Languages |
+| 7 | **Remote Work** | 12 | 7.6% | Soft Skills |
+| 8 | **Cross-Functional** | 11 | 7.0% | Soft Skills |
+| 9 | **Sql** | 11 | 7.0% | Programming Languages |
+| 10 | **Shopify** | 9 | 5.7% | Other Tools |
+
+---
+
+## Skills by Category
+
+### Programming Languages
+
+- **Total Mentions:** 76
+- **Unique Skills:** 15
+
+| Skill | Mentions | % of Jobs |
+|-------|----------|-----------|
+| Golang | 19 | 12.0% |
+| Python | 14 | 8.9% |
+| Sql | 11 | 7.0% |
+| Php | 9 | 5.7% |
+| Javascript | 6 | 3.8% |
+
+### Frontend
+
+- **Total Mentions:** 13
+- **Unique Skills:** 9
+
+| Skill | Mentions | % of Jobs |
+|-------|----------|-----------|
+| Less | 3 | 1.9% |
+| Html | 2 | 1.3% |
+| Next.Js | 2 | 1.3% |
+| Angular | 1 | 0.6% |
+| Svelte | 1 | 0.6% |
+
+### Backend
+
+- **Total Mentions:** 7
+- **Unique Skills:** 6
+
+| Skill | Mentions | % of Jobs |
+|-------|----------|-----------|
+| Node.Js | 2 | 1.3% |
+| Laravel | 1 | 0.6% |
+| Symfony | 1 | 0.6% |
+| Spring | 1 | 0.6% |
+| Microservices | 1 | 0.6% |
+
+### Databases
+
+- **Total Mentions:** 7
+- **Unique Skills:** 4
+
+| Skill | Mentions | % of Jobs |
+|-------|----------|-----------|
+| Postgres | 4 | 2.5% |
+| Postgresql | 1 | 0.6% |
+| Mysql | 1 | 0.6% |
+| Mongodb | 1 | 0.6% |
+
+### Cloud Devops
+
+- **Total Mentions:** 27
+- **Unique Skills:** 13
+
+| Skill | Mentions | % of Jobs |
+|-------|----------|-----------|
+| Aws | 5 | 3.2% |
+| Ansible | 4 | 2.5% |
+| Apache | 4 | 2.5% |
+| Azure | 2 | 1.3% |
+| Terraform | 2 | 1.3% |
+
+### Ai Ml
+
+- **Total Mentions:** 22
+- **Unique Skills:** 12
+
+| Skill | Mentions | % of Jobs |
+|-------|----------|-----------|
+| Data Science | 7 | 4.4% |
+| Machine Learning | 2 | 1.3% |
+| Power Bi | 2 | 1.3% |
+| Tableau | 2 | 1.3% |
+| Data Engineering | 2 | 1.3% |
+
+### Mobile
+
+- **Total Mentions:** 4
+- **Unique Skills:** 4
+
+| Skill | Mentions | % of Jobs |
+|-------|----------|-----------|
+| React Native | 1 | 0.6% |
+| Flutter | 1 | 0.6% |
+| Android | 1 | 0.6% |
+| Ios | 1 | 0.6% |
+
+### Security
+
+- **Total Mentions:** 26
+- **Unique Skills:** 5
+
+| Skill | Mentions | % of Jobs |
+|-------|----------|-----------|
+| Compliance | 22 | 13.9% |
+| Gdpr | 1 | 0.6% |
+| Cybersecurity | 1 | 0.6% |
+| Vulnerability | 1 | 0.6% |
+| Okta | 1 | 0.6% |
+
+### Soft Skills
+
+- **Total Mentions:** 145
+- **Unique Skills:** 14
+
+| Skill | Mentions | % of Jobs |
+|-------|----------|-----------|
+| Communication | 48 | 30.4% |
+| Collaboration | 22 | 13.9% |
+| Leadership | 22 | 13.9% |
+| Remote Work | 12 | 7.6% |
+| Cross-Functional | 11 | 7.0% |
+
+### Other Tools
+
+- **Total Mentions:** 28
+- **Unique Skills:** 8
+
+| Skill | Mentions | % of Jobs |
+|-------|----------|-----------|
+| Shopify | 9 | 5.7% |
+| Linux | 7 | 4.4% |
+| Wordpress | 3 | 1.9% |
+| Slack | 3 | 1.9% |
+| Github | 2 | 1.3% |
+
+---
+
+## Job Count by Location
+
+| Location | Job Count |
+|----------|-----------|
+| Remote | 9 |
+| New York, New York, New York, United States | 5 |
+| Remote, | 4 |
+| California, California, United States | 4 |
+| Time, | 3 |
+| New York, New York, United States | 3 |
+| New York City Metropolitan Area | 3 |
+| London, London, England, United Kingdom | 3 |
+| England, England, United Kingdom | 3 |
+| Ø¯Ø¨Ù, Ø¯Ø¨Ù Ø§ÙØ¥ÙØ§Ø±Ø§Øª Ø§ÙØ¹Ø±Ø¨ÙØ© Ø§ÙÙØªØ­Ø¯Ø© | 2 |
+| Ø§ÙÙØ¯ÙÙØ©, Ø§ÙÙØ¯ÙÙØ© Ø§ÙÙØ¯ÙÙØ© Ø§ÙØ³Ø¹ÙØ¯ÙØ© | 2 |
+| Warangal Rural, | 2 |
+| Staffordshire, | 2 |
+| Nirsa, | 2 |
+| Los Angeles, Los Angeles, California, United States | 2 |
+
+---
+
+## Top Hiring Companies
+
+| Company | Job Postings |
+|---------|-------------|
+| Recruit Lytics Hiring | 7 |
+| Travel Planning Professionals | 3 |
+| OnlineJobs.PH | 3 |
+| Office of Energy &amp; Sustainability | 3 |
+| Work Force Nexus | 2 |
+| Tyviso | 2 |
+| Strange Face | 2 |
+| StioÂ® | 2 |
+| Perle | 2 |
+| OpsArmy Careers | 2 |
+| Innodrei | 2 |
+| ð Clayful | 1 |
+| å¹¿å·å¸äººåèµæºåç¤¾ä¼ä¿éå± | 1 |
+| jÃ¼STa Hotels &amp; Resorts | 1 |
+| fashionxyz | 1 |
+
+---
+
+## Methodology
+
+Skills are extracted from job titles using a comprehensive taxonomy of technology terms across 10 categories: Programming Languages, Frontend, Backend, Databases, Cloud & DevOps, AI/ML, Mobile, Security, Soft Skills, and Other Tools. The matching uses case-insensitive whole-word matching to avoid false positives.
+
+**Data Freshness:** Jobs are scraped daily and deduplicated by URL. This report reflects the current week's job market activity.
+
+---
+
+*Report generated by JobScrape Pro v1.0.0*
+*For inquiries: contact@jobscrape.pro*

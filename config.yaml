@@ -1,0 +1,88 @@
+# JobScrape Pro Configuration
+# Modify this file to add new job boards or adjust scraping parameters
+
+# Scraping settings
+scraping:
+  # Delay between requests (random range in seconds)
+  rate_limit_delay: [1, 3]
+
+  # Request timeout in seconds
+  request_timeout: 30
+
+  # Maximum retries per request
+  max_retries: 3
+
+  # Maximum pages to scrape per target (safety limit)
+  max_pages_per_target: 10
+
+  # Stop after this many consecutive empty pages
+  consecutive_empty_threshold: 2
+
+# Target job boards
+# Add new boards by following the same structure
+targets:
+  - name: "RemoteOK"
+    base_url: "https://remoteok.com/remote-dev-jobs"
+    parser_type: "remoteok"  # Built-in parser
+    enabled: true
+    max_pages: 5
+    page_strategy: "query_param"  # Options: query_param, path, cursor
+    page_param: "page"
+
+  # Note: We Work Remotely requires additional anti-bot measures.
+  # Enable only if you have proxy/rotating IP support.
+  - name: "We Work Remotely"
+    base_url: "https://weworkremotely.com/remote-jobs/search?term=developer"
+    parser_type: "weworkremotely"  # Built-in parser
+    enabled: false
+    max_pages: 5
+    page_strategy: "query_param"
+    page_param: "page"
+
+  # Example: Adding a new job board (uncomment and modify)
+  # - name: "NewJobBoard"
+  #   base_url: "https://example.com/jobs?page={page}"
+  #   parser_type: "generic"
+  #   enabled: false
+  #   max_pages: 5
+  #   page_strategy: "path"
+  #   selectors:
+  #     container: ".job-listing"
+  #     title: ".job-title"
+  #     company: ".company-name"
+  #     location: ".job-location"
+  #     salary: ".salary-range"
+  #     date: ".posted-date"
+  #     link: "a.job-link"
+
+# Database settings
+database:
+  path: "data/jobs.db"
+  # Enable WAL mode for better concurrent access
+  wal_mode: true
+
+# Report settings
+reports:
+  output_dir: "reports"
+  # Number of top skills to include in reports
+  top_skills_count: 10
+  # Number of top locations/companies
+  top_locations_count: 15
+  top_companies_count: 15
+
+# Scheduling (for reference - use cron/systemd in production)
+schedule:
+  # Recommended cron for daily scraping:
+  # 0 6 * * * cd /path/to/jobscrape && python src/main.py full
+  #
+  # Recommended cron for weekly analysis:
+  # 0 7 * * 1 cd /path/to/jobscrape && python src/main.py analyze
+
+# Logging
+logging:
+  level: "INFO"
+  log_dir: "logs"
+  # Rotate logs after this size (bytes)
+  max_bytes: 10_000_000
+  # Number of backup log files
+  backup_count: 5

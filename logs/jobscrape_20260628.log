@@ -1,0 +1,160 @@
+2026-06-28 14:05:28 | INFO     | jobscrape            | JobScrape Pro v1.0.0 - Command: scrape
+2026-06-28 14:05:29 | INFO     | jobscrape.orchestrator | JobScrapeOrchestrator initialized
+2026-06-28 14:05:29 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:05:29 | INFO     | jobscrape.orchestrator | STARTING SCRAPE PIPELINE
+2026-06-28 14:05:29 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:05:29 | INFO     | jobscrape.orchestrator | --- Processing target: RemoteOK ---
+2026-06-28 14:05:34 | INFO     | jobscrape.orchestrator | Scraped 100 raw jobs from RemoteOK
+2026-06-28 14:05:34 | INFO     | jobscrape.orchestrator | Deduplication: 52 kept, 48 removed
+2026-06-28 14:05:34 | INFO     | jobscrape.orchestrator | Inserted 52 new jobs into database
+2026-06-28 14:05:34 | INFO     | jobscrape.orchestrator | --- Processing target: We Work Remotely ---
+2026-06-28 14:05:42 | INFO     | jobscrape.orchestrator | Scraped 0 raw jobs from We Work Remotely
+2026-06-28 14:05:42 | INFO     | jobscrape.orchestrator | Deduplication: 0 kept, 0 removed
+2026-06-28 14:05:42 | INFO     | jobscrape.orchestrator | Inserted 0 new jobs into database
+2026-06-28 14:05:42 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:05:42 | INFO     | jobscrape.orchestrator | SCRAPE PIPELINE COMPLETE
+2026-06-28 14:05:42 | INFO     | jobscrape.orchestrator |   Targets: 2
+2026-06-28 14:05:42 | INFO     | jobscrape.orchestrator |   Pages: 3
+2026-06-28 14:05:42 | INFO     | jobscrape.orchestrator |   Jobs found: 100
+2026-06-28 14:05:42 | INFO     | jobscrape.orchestrator |   Jobs inserted: 52
+2026-06-28 14:05:42 | INFO     | jobscrape.orchestrator |   Jobs deduplicated: 48
+2026-06-28 14:05:42 | INFO     | jobscrape.orchestrator |   Errors: 0
+2026-06-28 14:05:42 | INFO     | jobscrape.orchestrator |   Elapsed: 13.6s
+2026-06-28 14:05:42 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:05:42 | INFO     | jobscrape            | JobScrape Pro completed successfully
+2026-06-28 14:06:12 | INFO     | jobscrape            | JobScrape Pro v1.0.0 - Command: stats
+2026-06-28 14:06:12 | INFO     | jobscrape.orchestrator | JobScrapeOrchestrator initialized
+2026-06-28 14:06:12 | INFO     | jobscrape            | JobScrape Pro completed successfully
+2026-06-28 14:06:45 | INFO     | jobscrape            | JobScrape Pro v1.0.0 - Command: analyze
+2026-06-28 14:06:45 | INFO     | jobscrape.orchestrator | JobScrapeOrchestrator initialized
+2026-06-28 14:06:45 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:06:45 | INFO     | jobscrape.orchestrator | STARTING ANALYSIS PIPELINE
+2026-06-28 14:06:45 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:06:52 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:06:52 | INFO     | jobscrape.orchestrator | ANALYSIS PIPELINE COMPLETE
+2026-06-28 14:06:52 | INFO     | jobscrape.orchestrator |   Jobs analyzed: 152
+2026-06-28 14:06:52 | INFO     | jobscrape.orchestrator |   Unique skills: 90
+2026-06-28 14:06:52 | INFO     | jobscrape.orchestrator |   Top skill: communication
+2026-06-28 14:06:52 | INFO     | jobscrape.orchestrator |   Reports saved:
+2026-06-28 14:06:52 | INFO     | jobscrape.orchestrator |     - reports\skills_report_2026-W25_20260628_140652.md
+2026-06-28 14:06:52 | INFO     | jobscrape.orchestrator |     - reports\skills_report_2026-W25_20260628_140652.json
+2026-06-28 14:06:52 | INFO     | jobscrape.orchestrator |     - reports\LATEST_SKILLS_REPORT.md
+2026-06-28 14:06:52 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:06:52 | INFO     | jobscrape            | JobScrape Pro completed successfully
+2026-06-28 14:07:15 | INFO     | jobscrape            | JobScrape Pro v1.0.0 - Command: full
+2026-06-28 14:07:15 | INFO     | jobscrape.orchestrator | JobScrapeOrchestrator initialized
+2026-06-28 14:07:15 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:07:15 | INFO     | jobscrape.orchestrator | STARTING SCRAPE PIPELINE
+2026-06-28 14:07:15 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:07:15 | INFO     | jobscrape.orchestrator | --- Processing target: RemoteOK ---
+2026-06-28 14:07:18 | INFO     | jobscrape.orchestrator | Scraped 100 raw jobs from RemoteOK
+2026-06-28 14:07:18 | INFO     | jobscrape.orchestrator | Deduplication: 0 kept, 100 removed
+2026-06-28 14:07:18 | INFO     | jobscrape.orchestrator | Inserted 0 new jobs into database
+2026-06-28 14:07:18 | INFO     | jobscrape.orchestrator | --- Processing target: We Work Remotely ---
+2026-06-28 14:07:23 | INFO     | jobscrape.orchestrator | Scraped 0 raw jobs from We Work Remotely
+2026-06-28 14:07:23 | INFO     | jobscrape.orchestrator | Deduplication: 0 kept, 0 removed
+2026-06-28 14:07:23 | INFO     | jobscrape.orchestrator | Inserted 0 new jobs into database
+2026-06-28 14:07:24 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:07:24 | INFO     | jobscrape.orchestrator | SCRAPE PIPELINE COMPLETE
+2026-06-28 14:07:24 | INFO     | jobscrape.orchestrator |   Targets: 2
+2026-06-28 14:07:24 | INFO     | jobscrape.orchestrator |   Pages: 3
+2026-06-28 14:07:24 | INFO     | jobscrape.orchestrator |   Jobs found: 100
+2026-06-28 14:07:24 | INFO     | jobscrape.orchestrator |   Jobs inserted: 0
+2026-06-28 14:07:24 | INFO     | jobscrape.orchestrator |   Jobs deduplicated: 100
+2026-06-28 14:07:24 | INFO     | jobscrape.orchestrator |   Errors: 0
+2026-06-28 14:07:24 | INFO     | jobscrape.orchestrator |   Elapsed: 8.7s
+2026-06-28 14:07:24 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:07:24 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:07:24 | INFO     | jobscrape.orchestrator | STARTING ANALYSIS PIPELINE
+2026-06-28 14:07:24 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:07:30 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:07:30 | INFO     | jobscrape.orchestrator | ANALYSIS PIPELINE COMPLETE
+2026-06-28 14:07:30 | INFO     | jobscrape.orchestrator |   Jobs analyzed: 152
+2026-06-28 14:07:30 | INFO     | jobscrape.orchestrator |   Unique skills: 90
+2026-06-28 14:07:30 | INFO     | jobscrape.orchestrator |   Top skill: communication
+2026-06-28 14:07:30 | INFO     | jobscrape.orchestrator |   Reports saved:
+2026-06-28 14:07:30 | INFO     | jobscrape.orchestrator |     - reports\skills_report_2026-W25_20260628_140730.md
+2026-06-28 14:07:30 | INFO     | jobscrape.orchestrator |     - reports\skills_report_2026-W25_20260628_140730.json
+2026-06-28 14:07:30 | INFO     | jobscrape.orchestrator |     - reports\LATEST_SKILLS_REPORT.md
+2026-06-28 14:07:30 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 14:07:30 | INFO     | jobscrape            | JobScrape Pro completed successfully
+2026-06-28 22:06:38 | INFO     | jobscrape            | JobScrape Pro v1.0.0 - Command: scrape
+2026-06-28 22:06:38 | INFO     | jobscrape.orchestrator | JobScrapeOrchestrator initialized
+2026-06-28 22:06:38 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:06:38 | INFO     | jobscrape.orchestrator | STARTING SCRAPE PIPELINE
+2026-06-28 22:06:38 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:06:38 | INFO     | jobscrape.orchestrator | --- Processing target: RemoteOK ---
+2026-06-28 22:06:44 | INFO     | jobscrape.orchestrator | Scraped 100 raw jobs from RemoteOK
+2026-06-28 22:06:44 | INFO     | jobscrape.orchestrator | Deduplication: 6 kept, 94 removed
+2026-06-28 22:06:44 | INFO     | jobscrape.orchestrator | Inserted 6 new jobs into database
+2026-06-28 22:06:44 | INFO     | jobscrape.orchestrator | --- Processing target: We Work Remotely ---
+2026-06-28 22:06:50 | INFO     | jobscrape.orchestrator | Scraped 0 raw jobs from We Work Remotely
+2026-06-28 22:06:50 | INFO     | jobscrape.orchestrator | Deduplication: 0 kept, 0 removed
+2026-06-28 22:06:50 | INFO     | jobscrape.orchestrator | Inserted 0 new jobs into database
+2026-06-28 22:06:50 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:06:50 | INFO     | jobscrape.orchestrator | SCRAPE PIPELINE COMPLETE
+2026-06-28 22:06:50 | INFO     | jobscrape.orchestrator |   Targets: 2
+2026-06-28 22:06:50 | INFO     | jobscrape.orchestrator |   Pages: 3
+2026-06-28 22:06:50 | INFO     | jobscrape.orchestrator |   Jobs found: 100
+2026-06-28 22:06:50 | INFO     | jobscrape.orchestrator |   Jobs inserted: 6
+2026-06-28 22:06:50 | INFO     | jobscrape.orchestrator |   Jobs deduplicated: 94
+2026-06-28 22:06:50 | INFO     | jobscrape.orchestrator |   Errors: 0
+2026-06-28 22:06:50 | INFO     | jobscrape.orchestrator |   Elapsed: 11.4s
+2026-06-28 22:06:50 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:06:50 | INFO     | jobscrape            | JobScrape Pro completed successfully
+2026-06-28 22:07:20 | INFO     | jobscrape            | JobScrape Pro v1.0.0 - Command: stats
+2026-06-28 22:07:21 | INFO     | jobscrape.orchestrator | JobScrapeOrchestrator initialized
+2026-06-28 22:07:21 | INFO     | jobscrape            | JobScrape Pro completed successfully
+2026-06-28 22:07:50 | INFO     | jobscrape            | JobScrape Pro v1.0.0 - Command: analyze
+2026-06-28 22:07:50 | INFO     | jobscrape.orchestrator | JobScrapeOrchestrator initialized
+2026-06-28 22:07:50 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:07:50 | INFO     | jobscrape.orchestrator | STARTING ANALYSIS PIPELINE
+2026-06-28 22:07:50 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:07:57 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:07:57 | INFO     | jobscrape.orchestrator | ANALYSIS PIPELINE COMPLETE
+2026-06-28 22:07:57 | INFO     | jobscrape.orchestrator |   Jobs analyzed: 158
+2026-06-28 22:07:57 | INFO     | jobscrape.orchestrator |   Unique skills: 90
+2026-06-28 22:07:57 | INFO     | jobscrape.orchestrator |   Top skill: communication
+2026-06-28 22:07:57 | INFO     | jobscrape.orchestrator |   Reports saved:
+2026-06-28 22:07:57 | INFO     | jobscrape.orchestrator |     - reports\skills_report_2026-W25_20260628_220757.md
+2026-06-28 22:07:57 | INFO     | jobscrape.orchestrator |     - reports\skills_report_2026-W25_20260628_220757.json
+2026-06-28 22:07:57 | INFO     | jobscrape.orchestrator |     - reports\LATEST_SKILLS_REPORT.md
+2026-06-28 22:07:57 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:07:57 | INFO     | jobscrape            | JobScrape Pro completed successfully
+2026-06-28 22:08:11 | INFO     | jobscrape            | JobScrape Pro v1.0.0 - Command: full
+2026-06-28 22:08:11 | INFO     | jobscrape.orchestrator | JobScrapeOrchestrator initialized
+2026-06-28 22:08:11 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:08:11 | INFO     | jobscrape.orchestrator | STARTING SCRAPE PIPELINE
+2026-06-28 22:08:11 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:08:11 | INFO     | jobscrape.orchestrator | --- Processing target: RemoteOK ---
+2026-06-28 22:08:18 | INFO     | jobscrape.orchestrator | Scraped 100 raw jobs from RemoteOK
+2026-06-28 22:08:18 | INFO     | jobscrape.orchestrator | Deduplication: 0 kept, 100 removed
+2026-06-28 22:08:18 | INFO     | jobscrape.orchestrator | Inserted 0 new jobs into database
+2026-06-28 22:08:18 | INFO     | jobscrape.orchestrator | --- Processing target: We Work Remotely ---
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator | Scraped 0 raw jobs from We Work Remotely
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator | Deduplication: 0 kept, 0 removed
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator | Inserted 0 new jobs into database
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator | SCRAPE PIPELINE COMPLETE
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator |   Targets: 2
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator |   Pages: 3
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator |   Jobs found: 100
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator |   Jobs inserted: 0
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator |   Jobs deduplicated: 100
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator |   Errors: 0
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator |   Elapsed: 13.1s
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator | STARTING ANALYSIS PIPELINE
+2026-06-28 22:08:24 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:08:30 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:08:30 | INFO     | jobscrape.orchestrator | ANALYSIS PIPELINE COMPLETE
+2026-06-28 22:08:30 | INFO     | jobscrape.orchestrator |   Jobs analyzed: 158
+2026-06-28 22:08:30 | INFO     | jobscrape.orchestrator |   Unique skills: 90
+2026-06-28 22:08:30 | INFO     | jobscrape.orchestrator |   Top skill: communication
+2026-06-28 22:08:30 | INFO     | jobscrape.orchestrator |   Reports saved:
+2026-06-28 22:08:30 | INFO     | jobscrape.orchestrator |     - reports\skills_report_2026-W25_20260628_220830.md
+2026-06-28 22:08:30 | INFO     | jobscrape.orchestrator |     - reports\skills_report_2026-W25_20260628_220830.json
+2026-06-28 22:08:30 | INFO     | jobscrape.orchestrator |     - reports\LATEST_SKILLS_REPORT.md
+2026-06-28 22:08:30 | INFO     | jobscrape.orchestrator | ============================================================
+2026-06-28 22:08:30 | INFO     | jobscrape            | JobScrape Pro completed successfully

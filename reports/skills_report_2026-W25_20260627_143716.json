@@ -1,0 +1,467 @@
+{
+  "generated_at": "2026-06-27T14:37:16.855487",
+  "period": {
+    "week_key": "2026-W25",
+    "start_date": "2026-06-23",
+    "end_date": "2026-06-26"
+  },
+  "total_jobs_analyzed": 100,
+  "total_skill_mentions": 268,
+  "unique_skills_found": 82,
+  "top_10_skills": [
+    {
+      "rank": 1,
+      "skill": "communication",
+      "count": 32,
+      "percentage_of_jobs": 32.0,
+      "category": "soft_skills"
+    },
+    {
+      "rank": 2,
+      "skill": "golang",
+      "count": 15,
+      "percentage_of_jobs": 15.0,
+      "category": "programming_languages"
+    },
+    {
+      "rank": 3,
+      "skill": "leadership",
+      "count": 15,
+      "percentage_of_jobs": 15.0,
+      "category": "soft_skills"
+    },
+    {
+      "rank": 4,
+      "skill": "compliance",
+      "count": 14,
+      "percentage_of_jobs": 14.0,
+      "category": "security"
+    },
+    {
+      "rank": 5,
+      "skill": "python",
+      "count": 13,
+      "percentage_of_jobs": 13.0,
+      "category": "programming_languages"
+    },
+    {
+      "rank": 6,
+      "skill": "collaboration",
+      "count": 12,
+      "percentage_of_jobs": 12.0,
+      "category": "soft_skills"
+    },
+    {
+      "rank": 7,
+      "skill": "sql",
+      "count": 10,
+      "percentage_of_jobs": 10.0,
+      "category": "programming_languages"
+    },
+    {
+      "rank": 8,
+      "skill": "php",
+      "count": 9,
+      "percentage_of_jobs": 9.0,
+      "category": "programming_languages"
+    },
+    {
+      "rank": 9,
+      "skill": "data science",
+      "count": 7,
+      "percentage_of_jobs": 7.0,
+      "category": "ai_ml"
+    },
+    {
+      "rank": 10,
+      "skill": "linux",
+      "count": 7,
+      "percentage_of_jobs": 7.0,
+      "category": "other_tools"
+    }
+  ],
+  "skills_by_category": {
+    "programming_languages": {
+      "total_mentions": 64,
+      "unique_skills": 14,
+      "top_skills": [
+        {
+          "skill": "golang",
+          "count": 15,
+          "percentage": 15.0
+        },
+        {
+          "skill": "python",
+          "count": 13,
+          "percentage": 13.0
+        },
+        {
+          "skill": "sql",
+          "count": 10,
+          "percentage": 10.0
+        },
+        {
+          "skill": "php",
+          "count": 9,
+          "percentage": 9.0
+        },
+        {
+          "skill": "perl",
+          "count": 3,
+          "percentage": 3.0
+        }
+      ]
+    },
+    "frontend": {
+      "total_mentions": 10,
+      "unique_skills": 8,
+      "top_skills": [
+        {
+          "skill": "less",
+          "count": 3,
+          "percentage": 3.0
+        },
+        {
+          "skill": "angular",
+          "count": 1,
+          "percentage": 1.0
+        },
+        {
+          "skill": "next.js",
+          "count": 1,
+          "percentage": 1.0
+        },
+        {
+          "skill": "svelte",
+          "count": 1,
+          "percentage": 1.0
+        },
+        {
+          "skill": "react",
+          "count": 1,
+          "percentage": 1.0
+        }
+      ]
+    },
+    "backend": {
+      "total_mentions": 7,
+      "unique_skills": 6,
+      "top_skills": [
+        {
+          "skill": "node.js",
+          "count": 2,
+          "percentage": 2.0
+        },
+        {
+          "skill": "laravel",
+          "count": 1,
+          "percentage": 1.0
+        },
+        {
+          "skill": "symfony",
+          "count": 1,
+          "percentage": 1.0
+        },
+        {
+          "skill": "spring",
+          "count": 1,
+          "percentage": 1.0
+        },
+        {
+          "skill": "microservices",
+          "count": 1,
+          "percentage": 1.0
+        }
+      ]
+    },
+    "databases": {
+      "total_mentions": 7,
+      "unique_skills": 4,
+      "top_skills": [
+        {
+          "skill": "postgres",
+          "count": 4,
+          "percentage": 4.0
+        },
+        {
+          "skill": "postgresql",
+          "count": 1,
+          "percentage": 1.0
+        },
+        {
+          "skill": "mysql",
+          "count": 1,
+          "percentage": 1.0
+        },
+        {
+          "skill": "mongodb",
+          "count": 1,
+          "percentage": 1.0
+        }
+      ]
+    },
+    "cloud_devops": {
+      "total_mentions": 25,
+      "unique_skills": 12,
+      "top_skills": [
+        {
+          "skill": "aws",
+          "count": 4,
+          "percentage": 4.0
+        },
+        {
+          "skill": "ansible",
+          "count": 4,
+          "percentage": 4.0
+        },
+        {
+          "skill": "apache",
+          "count": 4,
+          "percentage": 4.0
+        },
+        {
+          "skill": "azure",
+          "count": 2,
+          "percentage": 2.0
+        },
+        {
+          "skill": "terraform",
+          "count": 2,
+          "percentage": 2.0
+        }
+      ]
+    },
+    "ai_ml": {
+      "total_mentions": 21,
+      "unique_skills": 12,
+      "top_skills": [
+        {
+          "skill": "data science",
+          "count": 7,
+          "percentage": 7.0
+        },
+        {
+          "skill": "power bi",
+          "count": 2,
+          "percentage": 2.0
+        },
+        {
+          "skill": "tableau",
+          "count": 2,
+          "percentage": 2.0
+        },
+        {
+          "skill": "data engineering",
+          "count": 2,
+          "percentage": 2.0
+        },
+        {
+          "skill": "pandas",
+          "count": 1,
+          "percentage": 1.0
+        }
+      ]
+    },
+    "mobile": {
+      "total_mentions": 4,
+      "unique_skills": 4,
+      "top_skills": [
+        {
+          "skill": "react native",
+          "count": 1,
+          "percentage": 1.0
+        },
+        {
+          "skill": "flutter",
+          "count": 1,
+          "percentage": 1.0
+        },
+        {
+          "skill": "android",
+          "count": 1,
+          "percentage": 1.0
+        },
+        {
+          "skill": "ios",
+          "count": 1,
+          "percentage": 1.0
+        }
+      ]
+    },
+    "security": {
+      "total_mentions": 14,
+      "unique_skills": 1,
+      "top_skills": [
+        {
+          "skill": "compliance",
+          "count": 14,
+          "percentage": 14.0
+        }
+      ]
+    },
+    "soft_skills": {
+      "total_mentions": 93,
+      "unique_skills": 14,
+      "top_skills": [
+        {
+          "skill": "communication",
+          "count": 32,
+          "percentage": 32.0
+        },
+        {
+          "skill": "leadership",
+          "count": 15,
+          "percentage": 15.0
+        },
+        {
+          "skill": "collaboration",
+          "count": 12,
+          "percentage": 12.0
+        },
+        {
+          "skill": "remote work",
+          "count": 7,
+          "percentage": 7.0
+        },
+        {
+          "skill": "scrum",
+          "count": 6,
+          "percentage": 6.0
+        }
+      ]
+    },
+    "other_tools": {
+      "total_mentions": 23,
+      "unique_skills": 7,
+      "top_skills": [
+        {
+          "skill": "linux",
+          "count": 7,
+          "percentage": 7.0
+        },
+        {
+          "skill": "shopify",
+          "count": 5,
+          "percentage": 5.0
+        },
+        {
+          "skill": "wordpress",
+          "count": 3,
+          "percentage": 3.0
+        },
+        {
+          "skill": "slack",
+          "count": 3,
+          "percentage": 3.0
+        },
+        {
+          "skill": "github",
+          "count": 2,
+          "percentage": 2.0
+        }
+      ]
+    }
+  },
+  "avg_skills_per_job": 2.68,
+  "location_distribution": {
+    "Remote": 9,
+    "Remote,": 4,
+    "New York, New York, New York, United States": 4,
+    "London, London, England, United Kingdom": 3,
+    "California, California, United States": 3,
+    "New York, New York, United States": 2,
+    "New York City Metropolitan Area": 2,
+    "Los Angeles, Los Angeles, California, United States": 2,
+    "Kolkata,": 2,
+    "Fully,": 2,
+    "åæ¸¯å,": 1,
+    "åäº¬å¸, ä¸­å½ åäº¬å¸ åäº¬å¸": 1,
+    "Ø¯Ø¨Ù, Ø¯Ø¨Ù Ø§ÙØ¥ÙØ§Ø±Ø§Øª Ø§ÙØ¹Ø±Ø¨ÙØ© Ø§ÙÙØªØ­Ø¯Ø©": 1,
+    "Ø­ÙÙÙ, Ø­ÙÙÙ Ø­ÙÙÙ Ø§ÙÙÙÙØª": 1,
+    "Ãrea metropolitana de TorreÃ³n,": 1,
+    "Wideopen,": 1,
+    "Valsad,": 1,
+    "United States,": 1,
+    "United Kingdom,": 1,
+    "Ukhrul,": 1,
+    "Time,": 1,
+    "Telangana, Telangana, India": 1,
+    "SÃ£o Paulo, SÃ£o Paulo, SÃ£o Paulo, Brasil": 1,
+    "SÃ£o Paulo e RegiÃ£o,": 1,
+    "Sydney, Sydney, New South Wales, Australia": 1,
+    "Staffordshire,": 1,
+    "Southampton Parish,": 1,
+    "San Juan,": 1,
+    "San Francisco Bay Area": 1,
+    "Richmond Upon Thames, Richmond Upon Thames, England, United Kingdom": 1,
+    "Regional Municipality of Peel,": 1,
+    "Red Deer,": 1,
+    "Raina-I,": 1,
+    "Princeton, Princeton, New Jersey, United States": 1,
+    "PanamÃ¡,": 1,
+    "Orlando, Orlando, Florida, United States": 1,
+    "One Tree,": 1,
+    "Nirsa,": 1,
+    "Newcastle,": 1,
+    "Nassau,": 1,
+    "Media,": 1,
+    "London Area, London Area, United Kingdom": 1,
+    "LeÃ³n,": 1,
+    "Kolhapur,": 1,
+    "Illinois, Illinois, United States": 1,
+    "Illinois,": 1,
+    "Houston, Houston, Texas, United States": 1,
+    "Gurdaspur,": 1,
+    "Greater Kolkata Area": 1,
+    "Gironde,": 1,
+    "Georgia, Georgia, United States": 1,
+    "Fortaleza, Fortaleza, CearÃ¡, Brasil": 1,
+    "Florida, Florida, United States": 1,
+    "England, England, United Kingdom": 1,
+    "England": 1,
+    "Denver,": 1,
+    "Columbus,": 1,
+    "Christ Church,": 1,
+    "Cali, Cali, Valle del Cauca, Colombia": 1,
+    "Cabo San Lucas,": 1,
+    "Buenos Aires, Buenos Aires, Provincia de Buenos Aires, Argentina": 1,
+    "Bristol,": 1,
+    "Bridgetown,": 1,
+    "Brazil": 1,
+    "Brantford,": 1,
+    "Bhuj,": 1,
+    "Berkeley,": 1,
+    "Beowawe,": 1,
+    "Belgrade, Belgrade, Serbia": 1,
+    "Barcelona, Barcelona, CataluÃ±a, EspaÃ±a": 1,
+    "Austin, Austin, Texas, United States": 1,
+    "Athens,": 1,
+    "Armoy,": 1,
+    "Argentina,": 1,
+    "Albuquerque,": 1,
+    "Alberta, Alberta, Canada": 1,
+    "Aguadilla,": 1
+  },
+  "company_distribution": {
+    "Travel Planning Professionals": 3,
+    "Work Force Nexus": 2,
+    "Strange Face": 2,
+    "Perle": 2,
+    "OnlineJobs.PH": 2,
+    "ð Clayful": 1,
+    "jÃ¼STa Hotels &amp; Resorts": 1,
+    "fashionxyz": 1,
+    "Wripple": 1,
+    "Williams Tucker Limited": 1,
+    "Wenzel DesignTec": 1,
+    "VÃ­cio": 1,
+    "Valiantys": 1,
+    "UniversitÃ© de Bordeaux": 1,
+    "Universia Argentina": 1,
+    "UN Remote Jobss": 1,
+    "Twin Dolphin Los Cabos": 1,
+    "StratifyIQ": 1,
+    "Snapscale": 1,
+    "Serverfarm": 1
+  }
+}
